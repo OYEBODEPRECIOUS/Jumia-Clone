@@ -11,31 +11,88 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .product-section-container  div  {
     /* background-color: white; */
     height: 100%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-radius: 5px;
 }
 
-.product-container-01 {
+.product-section-container .product-container-01 {
     display: grid;
     grid-column: span 2;
-    grid-row: span 4;
+    grid-row: span 5;
     background-color: white;
 }
 
-.product-container-02 {
+.product-section-container .product-container-02 {
     display: grid;
-    grid-row: span 3;
+    grid-row: span 4;
     background-color: blue;
 }
 
-.product-container-03 {
+.product-section-container .product-container-03 {
     background-color: pink;
 }
+
+.product-section-second-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.product-section-second-container div {
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.product-section-second-container .product-container-01 {
+    background-color: red;
+    display: grid;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.product-section-second-container .product-container-02 {
+    background-color: pink;
+    display: grid;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.product-section-second-container .product-container-03 {
+    /* height: 100px; */
+    background-color: green;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+
+.product-section-second-container .product-container-04 {
+    background-color: orange;
+    grid-column: span 2;
+    grid-row: span 5;
+
+}
+
+.product-section-second-container .product-container-05 {
+    background-color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     text-align: center;
