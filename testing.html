@@ -4,38 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing | Product </title>
-    <link rel="stylesheet" href="testing.css">
+    <link rel="stylesheet" href="css/testing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="/images/jumia_icon-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
     <div class="all-product">
+        <!-- PRODUCT CONTAINER 1 -->
         <div class="product-container-01">
 
             <div class="product-container-content">
                 <div class="img-container">
                     <div class="img-info">
-                        <img src="./images/Louis Vuitton Lxury Quality Cooperate .jpg" alt="product-img" class="product-img">
+                        <img src="./images/ACE ELEC.jpg" alt="" class="product-img">
                         <div class="product-minor-image-container">
-                            <img src="" alt="minor 1" class="product-minor-img">
-                            <img src="" alt="minor 2" class="product-minor-img">
-                            <img src="" alt="minor 3" class="product-minor-img">
+                            
+                            <img src="./images/ACE ELEC MINI 1.jpg" alt="ace elec image" class="product-minor-img">
+                            <img src="./images/ACE ELEC MINI 2.jpg" alt="ace elec image" class="product-minor-img">
+                            <img src="./images/ACE ELEC MINI 3.jpg" alt="ace elec image" class="product-minor-img">
+                            <img src="./images/ACE ELEC MINI 4.jpg" alt="ace elec image" class="product-minor-img">
+                            <img src="./images/ACE ELEC MINI 5.jpg" alt="ace elec image" class="product-minor-img">
                         </div>
                         <p class="share">SHARE THIS PRODUCT</p>
                     </div>
                     <div class="report-section">
-                        <p class="report">Report incorrect production information</p>
+                        <a href="#" class="report">Report incorrect production information</a>
                     </div>
                 </div>
         
                 <div class="product-info-container">
                     <div class="official-store">
-                        <p class="official-store">Official Store</p>
+                        <button class="official-store_btn">Official Store</button>
+                        <i class="fa-regular fa-heart love-icon"></i>
                         <p class="product-name">Dr Teal's Moist B&B Oil 8.8Oz Eucalyptus</p>
                         <p class="brand">Brand: <a href="#" class="brand">Dr Teal's | Similar product from Dr Teal's</a></p>
                     </div>
         
                     <div class="flash-sale-container">
                         <div class="flash-sale-header">
-                            <p class="flash">Flash Sales</p>
+                
+                            <p class="flash"><i class="fa-solid fa-bolt"></i> Flash Sales</p>
                             <p class="time-left">Time left: <span>19h: 42m: 30s</span></p>
                         </div>
         
@@ -56,29 +64,42 @@
                         
                         <div class="third-section">
                             <p class="shipping-location">
-                                - shipping from $ 2 to LEKKI - AJAH (SANGOTEDO)
+                                + shipping from $ 2 to LEKKI - AJAH (SANGOTEDO)
                             </p>
         
                             <div class="verification-container">
-                                <div class="star-rating">
-        
-                                </div>
-                                <p class="ratings-number">
+                                <span class="star-rating">
+                                    <i class="fa-solid fa-star ratings"></i>
+                                    <i class="fa-solid fa-star ratings"></i>
+                                    <i class="fa-solid fa-star ratings"></i>
+                                    <i class="fa-solid fa-star ratings"></i>
+                                    <i class="fa-solid fa-star half-ratings"></i>
+                                </span>
+                                <a class="ratings-number" href="#">
                                     (2 verified ratings) 
-                                </p>
+                                </a>
                             </div>
         
                             <div class="add-to-cart-container">
-                                <button class="add-to-cart_btn">
-                                    ADD TO CART
-                                </button>
+                                <i class="fa-solid fa-cart-plus cart-icon"></i>
+                                <p class="add-to-cart_btn">ADD TO CART</p>
+                                <img src="" alt="hidden" class="hidden">
                             </div>
         
-                            <P class="promotion">PROMOTIONS</P>
-                            <p class="promotion-content">
-                                <p class="promotion">Call 020484984980 To Place Your Order</p>
-                                <p class="promotion">Call 020484984980 To Place Your Order</p>
-                                <p class="promotion">Call 020484984980 To Place Your Order</p>
+                            <P class="promotion-name">PROMOTIONS</P>
+                            <p class="promotion-content=container">
+                                <div class="promotion-content">
+                                    <img src="/images/jumia_icon-removebg-preview.png" alt="" class="promotion-img">
+                                    <a href="#" class="promotion">Call 02209092094 To Place Your Order</a>
+                                </div>
+                                <div class="promotion-content">
+                                    <img src="/images/jumia_icon-removebg-preview.png" alt="" class="promotion-img">
+                                    <a href="#" class="promotion">Call 02209092094 To Place Your Order</a>
+                                </div>
+                                <div class="promotion-content">
+                                    <img src="/images/jumia_icon-removebg-preview.png" alt="" class="promotion-img">
+                                    <a href="#" class="promotion">Call 02209092094 To Place Your Order</a>
+                                </div>
                             </p>
         
         
@@ -88,9 +109,14 @@
         
             </div>
         </div>
+        <!-- PRODUCT CONTAINER 2 -->
         <div class="product-container-02">
-            <p class="delivery">DELIVEY & RETURNS</p>
-            <P class="delivery-logo">JUMIA <img src="" alt="express logo"></P>
+            <p class="delivery">DELIVEY & RETURNS </p>
+            <div class="delivery-container">
+                <p class="delivery-logo">JUMIA</p>
+                <img src="./images/jumia_logo-removebg-preview.png" alt="express logo" class="product-logo">
+            </div>
+
             <p class="delivery-description">Free delivery on thousands of product in Lagos Ibadan & Abuja <a href="#">Details</a></p>
             <p class="location-title">Choose your location</p>
             <div class="state-select">
@@ -106,9 +132,8 @@
                     <option value="">Edo</option>
                     <option value="">Gobe</option>
                 </select>
-            </div>
 
-            <div class="local-goverment-select">
+
                 <select name="" id="local-goverment">
                     <option value="">Lagos</option>
                     <option value="">Osun</option>
@@ -126,7 +151,7 @@
             <div class="station-section">
                 <div class="station-container">
                     <div class="icon">
-                        <img src="" alt="icon">
+                        <i class="fa-solid fa-credit-card icon-img"></i>
                     </div>
                     <div class="station-info">
                         <p class="station-name">Pickup Station</p>
@@ -140,10 +165,10 @@
 
                 <div class="station-container">
                     <div class="icon">
-                        <img src="" alt="icon">
+                        <i class="fa-solid fa-truck-pickup icon-img"></i>    
                     </div>
                     <div class="station-info">
-                        <p class="station-name">Pickup Station</p>
+                        <p class="station-name">Door Delivery</p>
                         <p class="delivery-fee">Delivery fee $ 3</p>
                         <p class="delivery-info">Arriving at pickup station between 12 July & 28 July when you order within next 2 mins</p>
                     </div>
@@ -154,10 +179,10 @@
 
                 <div class="station-container">
                     <div class="icon">
-                        <img src="" alt="icon">
+                        <i class="fa-solid fa-rotate-left icon-img"></i>
                     </div>
                     <div class="station-info">
-                        <p class="station-name">Pickup Station</p>
+                        <p class="station-name">Return Policy</p>
                         <p class="delivery-fee">Delivery fee $ 3</p>
                         <p class="delivery-info">Arriving at pickup station between 12 July & 28 July when you order within next 2 mins</p>
                     </div>
@@ -168,15 +193,54 @@
 
             </div>
         </div>
-
+        <!-- PRODUCT CONTAINER 3 -->
         <div class="product-container-03">
             <div class="seller-info">
-                <p class="seller-topic">SELLER INFORMATION</p>
-                <p class="seller-nme">JUMIA</p>
+                <div class="seller-topic-container">
+                    <p class="seller-topic">SELLER INFORMATION</p>
+                </div>
+                <p class="seller-name">JUMIA</p>
                 <P class="seller-score">100% Seller Score</P>
 
             </div>
         </div>
+        <!-- PRODUCT CONTAINER 4 -->
+        <div class="product-container-04">
+            <div class="product-detail-container">
+                <p class="product-detail">Product details</p>
+            </div>
+            <p class="product-detail-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem culpa, sunt ducimus eum placeat labore debitis at in nihil vitae quam nemo assumenda eveniet ab neque pariatur aperiam quae. <br> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque libero odio ex veniam consequuntur, harum corrupti minus quia accusamus cum at labore, praesentium inventore eveniet hic quidem a eum ipsam?
+            </p>
+
+        </div>
+        <!-- PRODUCT CONTAINER 5 -->
+        <div class="product-container-05">
+            <div class="product-detail-container">
+                <p class="item">Product details</p>
+            </div>
+            <div class="product-detail-container">
+                <p class="item">Specifications</p>
+            </div>
+            <div class="product-detail-container">
+                <p class="item">Verified Customer Feedback</p>
+            </div>
+        </div>
+        <!-- PRODUCT CONTAINER 6 -->
+        <div class="product-container-06">
+            <div class="img-short-container">
+                <img src="./images/ACE ELEC.jpg" alt="" class="product-image-02">
+            </div>
+            
+            <div class="image-short-container-info">
+                <div class="product-name-short">Dr Teal's Moist B&B Oil...</div>
+                <p class="product-price-short">$ 40</p>
+                <span class="product-slash-price-short">$ 60 </span>
+                <span class="discount-short">-18%</span>
+            </div>
+        </div>
+        <button class="add-to-cart-btn">ADD TO CART</button>
     </div>
 </body>
 </html>
